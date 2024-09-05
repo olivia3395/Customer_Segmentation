@@ -95,10 +95,72 @@ The following visualizations provide key insights into customer activity and rev
 
 ![Visual Analysis of Revenue and Customer Trends](fig1.png) 
 
+1. **Monthly Active Customers Over Time**: The number of active customers grows steadily, peaking in November 2011, with a sharp drop in December.
+   
+2. **Monthly Revenue Over Time**: Revenue follows a similar pattern, peaking in November 2011, with a significant decline in December.
+
+3. **Monthly Active Customers vs. Revenue**: Both active customer count and revenue show correlated growth trends, with the highest activity in November 2011.
+   
+4. **Distribution of Monthly Active Customers**: Most months see between 800 and 1,000 active customers, with a few outliers reaching higher levels.
 
 
 
-## Results and Visualizations
+![Monthly Active Customers and Revenue Trends](fig2.png)
+
+
+
+1. **New Customers Over Time**: The number of new customers starts high in December 2010, declines over time, and reaches a low in December 2011.
+   
+2. **Active Customers vs. New Customers**: While active customers remain steady, the proportion of new customers is consistently lower, indicating a reliance on repeat customers.
+
+3. **New Customer Ratio vs. Revenue**: The ratio of new customers fluctuates, with higher ratios corresponding to periods of lower revenue, suggesting that repeat customers drive higher revenues.
+   
+4. **Distribution of New Customer Ratio**: Most months see a new customer ratio between **3 to 7**. There are fewer months with higher ratios, indicating that new customer acquisition is sporadic.
+
+
+![New Customers and Revenue Trends](fig3.png)
+
+
+### RFM Clustering Results
+
+The boxplots below display clear distinctions between clusters for **Recency**, **Frequency**, and **Monetary**, showcasing the effectiveness of the clustering. 
+
+- **Higher clusters in Frequency and Monetary** represent more valuable customers, characterized by frequent purchases and higher spending.
+- **Lower recency values** (Cluster 3) indicate more recently active customers, showing a higher engagement level.
+
+![RFM Clustering Results](fig4.png)
+
+
+
+
+### Customer Segmentation by Overall Score
+
+The visualizations below show the distribution of customers by **Overall Score** and their corresponding **Recency**, **Frequency**, and **Monetary** metrics:
+
+- **Distribution of Customers by Overall Score**: Most customers fall into the mid-value segment with scores between **2 and 3**.
+- **Mean Recency by Overall Score**: Lower overall scores correspond to more recent activity.
+- **Mean Frequency by Overall Score**: Higher overall scores show a significant increase in purchase frequency.
+- **Mean Monetary by Overall Score**: High-value customers (scores 5+) contribute substantially more revenue.
+
+![Distribution and RFM by Overall Score](fig5.png)
+
+
+
+### RFM Segmentation Scatter Plots
+
+The scatter plots below display the relationships between **Recency**, **Frequency**, and **Monetary** across different customer value segments:
+
+- **Recency vs. Monetary**: High-value customers (green) tend to have recent purchases and contribute significantly to revenue, while low-value customers (red) show longer recency periods and lower spending.
+- **Frequency vs. Monetary**: Customers with high purchase frequency and high spending are classified as high-value, whereas low-value customers have fewer purchases and lower revenue.
+- **Recency vs. Frequency**: High-frequency customers are generally recent buyers, clustered in the higher-value segments, while low-value customers have longer periods since their last purchase and lower purchase frequency.
+
+![RFM Segmentation Scatter Plots](fig6.png)
+
+
+
+
+
+## Results:
 The analysis produced the following insights:
 - **Low Value Customers**: Have low recency, frequency, and monetary scores. These customers are either inactive or make infrequent purchases with low spending.
 - **Mid Value Customers**: Make regular purchases but spend moderately. Retaining these customers and encouraging more frequent purchases can push them into the high-value group.
