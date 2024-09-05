@@ -81,6 +81,23 @@ Several visualizations help to interpret the customer segments:
 3. **Customer Segmentation by Overall Score**: Scatter plots showing the relationship between recency, frequency, and monetary value, segmented by customer value groups.
 4. **Monthly Active Customers**: A plot that tracks the number of active customers over time.
 
+
+The following visualizations provide key insights into customer activity and revenue trends:
+
+1. **Monthly Revenue Over Time**: A steady increase in revenue is observed, peaking in November 2011, followed by a sharp drop in December, likely due to incomplete data.
+   
+2. **Distribution of Transaction Amounts (Log-transformed)**: Most transactions are small, with a few high-value transactions. The log transformation helps manage the skew in transaction amounts.
+   
+3. **Number of Unique Customers Per Month**: Unique customers steadily increase over time, peaking in November 2011, with a decline in December.
+   
+4. **Revenue by Hour and Day of the Week**: Thursdays and Fridays, especially between 9 AM and 2 PM, generate the highest revenue, highlighting peak sales periods.
+
+
+![Visual Analysis of Revenue and Customer Trends](fig1.png) 
+
+
+
+
 ## Results and Visualizations
 The analysis produced the following insights:
 - **Low Value Customers**: Have low recency, frequency, and monetary scores. These customers are either inactive or make infrequent purchases with low spending.
