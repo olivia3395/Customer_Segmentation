@@ -1,6 +1,6 @@
 ### README.md
 
-# Customer Segmentation Using RFM Analysis with Python
+# Customer Segmentation Using RFM Analysis
 
 This repository presents a detailed analysis of customer segmentation using **RFM analysis** (Recency, Frequency, Monetary) to classify customers into different value segments based on their purchasing behavior. This project focuses on clustering customers and scoring them based on their recent purchases, frequency of purchases, and the total monetary value they contribute to the business.
 
