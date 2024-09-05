@@ -168,6 +168,14 @@ The analysis produced the following insights:
 
 We also provided visualizations showing the segmentation and distributions across different RFM metrics. These insights help businesses identify which customer segments to focus on for retention, re-engagement, or targeted marketing efforts.
 
+
+
+## Summary:
+- **High Value Customers**: Focus on Improving Retention. They already purchase fre- quently, so the goal is to keep them loyal and engaged.
+- **Mid Value Customers**: Focus on Improving Retention + Increasing Frequency. They need both engagement to stay loyal and encouragement to buy more frequently.
+- **Low Value Customers**:  Focus on Increasing Frequency. The goal is to encourage them to buy more often and engage them more with the brand.
+
+
    
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
