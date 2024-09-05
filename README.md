@@ -1,4 +1,3 @@
-### README.md
 
 # Customer Segmentation Using RFM Analysis
 
