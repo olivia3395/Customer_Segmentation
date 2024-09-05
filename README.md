@@ -47,6 +47,13 @@ The data is processed to extract these three metrics for each customer:
 ### Clustering for Each Metric:
 - **K-Means Clustering** is applied to **Recency**, **Frequency**, and **Monetary** to group customers into clusters based on their behaviors.
 - The number of clusters is determined using the **Elbow Method**, which helps identify the optimal number of clusters by analyzing the sum of squared errors (SSE).
+### Metric: 
+
+
+
+
+
+
 
 ### Model Details:
 For each of the RFM metrics:
@@ -65,7 +72,6 @@ The segmentation helps businesses prioritize their customer engagement and marke
 - **Mid Value**: Increase retention and encourage higher spending.
 - **High Value**: Retain loyal, high-value customers with personalized offers and loyalty programs.
 
-## Metrics
 The key metrics in this analysis are derived from **RFM scores**:
 - **Recency (R)**: The number of days since a customer's most recent purchase.
 - **Frequency (F)**: The total number of purchases made by the customer.
